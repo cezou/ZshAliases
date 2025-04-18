@@ -7,9 +7,9 @@
 - Filters out and counts annoying file descriptors shown by VS Code
 
 <p align="center">
-  <img src="imgs/0.png" alt="0.png" width="180">
-  &nbsp;&nbsp;➤&nbsp;&nbsp;
-  <img src="imgs/1.png" alt="1.png" width="180">
+  <img src="imgs/0.png" alt="0.png" width="300"><br>
+  <b>👇<br</b><br>
+  <img src="imgs/1.png" alt="1.png" width="400">
 </p>
 
 ### $ **pu ["message"]**
