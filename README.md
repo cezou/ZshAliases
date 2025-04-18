@@ -2,17 +2,17 @@
 
 ## Main Functions
 
-### $ **val [options] ./program**
+### $ **val [options] ./program** [[see code](.zshrc#L35)]
 - Runs valgrind with predefined options (track-fds, leak-check, trace-children)
 - Filters out and counts annoying file descriptors shown by VS Code
 
 <p align="center">
   <img src="imgs/0.png" alt="0.png" width="300"><br>
-  <b>⬇️<br</b><br>
+  <b>⬇️<br></b><br>
   <img src="imgs/1.png" alt="1.png" width="400">
 </p>
 
-### $ **pu ["message"]**
+### $ **pu ["message"]** [[see code](.zshrc#L19)]
 - `git add . && git commit -m <message> && git push`
 - Default commit message if no message given: "Squid Update 🦑"
 
