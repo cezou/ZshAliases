@@ -8,7 +8,7 @@
 
 <p align="center">
   <img src="imgs/0.png" alt="0.png" width="300"><br>
-  <b>👇<br</b><br>
+  <b>⬇️<br</b><br>
   <img src="imgs/1.png" alt="1.png" width="400">
 </p>
 
