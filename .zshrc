@@ -42,9 +42,12 @@ function val()
     { lines[n++] = $0 }
     END {
       for (i=0; i<n; i++) {
-        print lines[i]
         if (lines[i] ~ /FILE DESCRIPTORS:/)
-          printf("==%s==                          (%d vscode)\n", pid, c)
+        {
+          sub(/\) at exit\./, "", lines[i]);
+          lines[i] = lines[i] " + " c " vscode) at exit.";
+        }
+        print lines[i]
       }
     }
     '
